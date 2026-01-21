@@ -21,16 +21,27 @@ Archivo: /datasets/Churn.csv
 🔢 Características (features)
 
 RowNumber: índice de cadena de datos (número de fila)
+
 CustomerId: identificador único del cliente
+
 Surname: apellido del cliente
+
 CreditScore: Score de crédito del cliente
+
 Geography: país de residencia del cliente
+
 Gender: sexo del cliente
+
 Age: edad del cliente
+
 Tenure: período durante el cual ha madurado el depósito a plazo fijo de un cliente (años)
+
 Balance: saldo de la cuenta bancaria
+
 NumOfProducts: número de productos bancarios utilizados por el cliente
+
 HasCrCard: el cliente tiene una tarjeta de crédito
+
 1 - sí
 0 - no
 IsActiveMember: actividad del cliente
