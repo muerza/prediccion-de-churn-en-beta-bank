@@ -1,11 +1,11 @@
-# Beta Bank — Customer Churn Prediction 🏦📉
+# Beta Bank — Customer Churn Prediction 
 
 This project builds and evaluates **classification models** to predict whether a Beta Bank customer is likely to **leave the bank (churn)**.  
 The goal is to help the business focus **retention efforts** on customers at higher risk.
 
 ---
 
-## Goal 🎯
+## Goal 
 
 Predict the target variable:
 
@@ -13,7 +13,7 @@ Predict the target variable:
 
 ---
 
-## Dataset 📦
+## Dataset 
 
 File used in the notebook: `Churn.csv` (expected in the project root).
 
@@ -23,7 +23,7 @@ Key features include:
 
 ---
 
-## What I did 🧩
+## What I did 
 
 ### 1) Data prep & feature engineering
 - Handled missing values in `Tenure` using:
@@ -49,7 +49,7 @@ To help the model learn the minority class, I used **upsampling** on the trainin
 
 ---
 
-## Metrics 🧪
+## Metrics 
 
 Evaluation uses:
 - **Recall**, **Precision**, **F1**
@@ -59,7 +59,7 @@ Evaluation uses:
 
 ---
 
-## Results (validation set) 📊
+## Results (validation set) 
 
 | Model | Recall | F1 | PR AUC | ROC-AUC | Precision |
 |---|---:|---:|---:|---:|---:|
@@ -70,11 +70,3 @@ Evaluation uses:
 
 ✅ Best overall **F1**: **RandomForestClassifier (0.6212)**  
 ✅ Best **Recall** (catching churners): **DecisionTreeClassifier (0.7259)**
-
----
-
-## How to run ▶️
-
-1) Install dependencies:
-```bash
-pip install -r requirements.txt
