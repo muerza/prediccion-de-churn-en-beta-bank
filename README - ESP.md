@@ -1,4 +1,4 @@
-# Sure Tomorrow (Sprint 14) — Machine Learning + Ofuscación de datos
+# Sure Tomorrow — Machine Learning + Ofuscación de datos
 
 Proyecto de *machine learning* para una aseguradora ficticia (**Sure Tomorrow**) con 4 objetivos: búsqueda de clientes similares, clasificación de probabilidad de recibir prestaciones, regresión del número de prestaciones y una técnica de **ofuscación** para proteger datos personales sin perder capacidad de modelado.
 
